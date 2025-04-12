@@ -33,17 +33,42 @@
 <main class="container">
 <section class="about">
 <img src="atc pic.jpg" alt="Tree care" />
-<section class="services">
-    
+<section class="quote" id="quote">
+  <h2>Request a Quote</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="location" placeholder="Location" required />
+  <textarea name="message" placeholder="Tell us what you need..." rows="5" required></textarea>
+  <button type="submit">Submit</button>
+  </form>
+  </section>
+  <section class="services">
     <h2>Our Services</h2>
-    <ul>
-    <li>Tree Pruning</li>
-    <li>Lopping & Felling</li>
-    <li>Hedge Trimming</li>
-    <li>Emergency Tree Work</li>
-    <li>General Tree Care</li>
-    </ul>
-    </section>
+    <div class="service-grid">
+      <div class="service-box">
+        <img src="tree prun.jpeg" alt="Tree Pruning" />
+        <div class="service-text">Tree Pruning</div>
+      </div>
+      <div class="service-box">
+        <img src="lopping.jpeg" alt="Lopping & Felling" />
+        <div class="service-text">Lopping & Felling</div>
+      </div>
+      <div class="service-box">
+        <img src="hedge.jpeg" alt="Hedge Trimming" />
+        <div class="service-text">Hedge Trimming</div>
+      </div>
+      <div class="service-box">
+        <img src="tree work.jpeg" alt="Emergency Tree Work" />
+        <div class="service-text">Emergency Tree Work</div>
+      </div>
+      <div class="service-box">
+        <img src="tree care.jpeg" alt="General Tree Care" />
+        <div class="service-text">General Tree Care</div>
+      </div>
+    </div>
+  </section>
+  
 <h2>About Us</h2>
 <p>
 PTC Tree Surgery provides trusted, affordable tree services across the Peak District. We specialize in agricultural and residential tree care with professionalism and precision.
@@ -65,16 +90,7 @@ referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 </section>
 
-<section class="quote" id="quote">
-<h2>Request a Quote</h2>
-<form action="https://formspree.io/f/your-form-id" method="POST">
-<input type="text" name="name" placeholder="Your Name" required />
-<input type="email" name="email" placeholder="Your Email" required />
-<input type="text" name="location" placeholder="Location" required />
-<textarea name="message" placeholder="Tell us what you need..." rows="5" required></textarea>
-<button type="submit">Submit</button>
-</form>
-</section>
+
 </main>
 
 <footer>
